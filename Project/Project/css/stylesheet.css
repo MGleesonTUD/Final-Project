@@ -1,0 +1,313 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.product img {
+  width: 100px;
+  height: auto;
+}
+
+.logout-area {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+/* navbar */
+
+.navbar {
+  background-color: #007bff; 
+  color: white;
+  padding: 10px 20px;
+  text-align: left;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease; 
+}
+
+.navbar a:hover, .navbar a:focus {
+  background-color: #0056b3; 
+  border-radius: 4px; 
+}
+
+
+/*about.php */
+.about-page .container {
+  background-image: url('path/to/img6.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  min-height: 100vh; 
+  color: rgb(12, 12, 12); 
+}
+
+.contact-form-container {
+  background-color: #f8f8f8; 
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.contact-form-container h2 {
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%; 
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  height: 100px; 
+}
+
+.submit-button {
+  background-color: #0056b3; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #004494; 
+}
+
+.about-page .container {
+  width: 80%; 
+  margin: 0 auto; 
+}
+
+.about-page .row.marketing {
+  text-align: center; 
+  padding: 20px 0; 
+}
+
+.about-page .row.marketing img {
+  width: 100%; 
+  max-width: 600px; 
+  margin-bottom: 20px; 
+}
+
+
+.container {
+  max-width: 400px; 
+  margin: 50px auto; 
+  padding: 20px;
+  background: #f9f9f9; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
+}
+
+.form-signin {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.form-signin-heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center; 
+}
+
+.form-control {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff; 
+}
+
+.form-control:focus {
+  border-color: #0056b3; 
+  box-shadow: 0 0 8px rgba(49, 138, 172, 0.5); 
+}
+
+.checkbox label {
+  margin-left: 5px; 
+  color: #666; 
+}
+
+.button {
+  background-color: #007bff; 
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3; 
+}
+
+a {
+  text-decoration: none; 
+  color: #007bff; 
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #0056b3; 
+}
+ .checkout-button {
+  background-color: #fd1010; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none; 
+  display: inline-block; 
+  cursor: pointer;
+}
+
+.button:hover, .checkout-button:hover {
+  background-color: #e32208; 
+}
+
+.create {
+  max-width: 400px; 
+  padding: 20px;
+  margin: 0 auto; 
+  background: #f8f8f8; 
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0,0,0,0.15); 
+}
+
+.create h2 {
+  text-align: center; 
+  color: #333;
+}
+
+.create form {
+  display: grid;
+  grid-gap: 10px; 
+  padding: 20px;
+}
+
+.create label {
+  display: block; 
+  margin-bottom: 5px; 
+  color: #666;
+}
+
+.create input[type="text"],
+.create input[type="email"],
+.create input[type="password"] {
+  width: 100%; 
+  padding: 8px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+}
+
+.create input[type="submit"] {
+  background-color: #0056b3; 
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer; 
+  transition: background-color 0.2s; 
+}
+
+.create input[type="submit"]:hover {
+  background-color: #003d7a; 
+}
+
+.create a {
+  display: block; 
+  text-align: center; 
+  margin-top: 10px; 
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.create a:hover {
+  text-decoration: underline; 
+}
+
+.navbar2 {
+  background-color: red; 
+  color: white; 
+  padding: 10px 0; 
+  text-align: center;
+}
+
+.navbar2 a {
+  color: white; 
+  margin: 0 10px; 
+  text-decoration: none; 
+  font-size: 16px; 
+}
+
+.navbar2 a:hover {
+  color: #ffe0e0; 
+  text-decoration: underline; 
+}
