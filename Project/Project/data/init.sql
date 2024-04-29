@@ -8,6 +8,7 @@ CREATE TABLE user (
                       age INT(3),
                       password VARCHAR(50) NOT NULL,
                       date TIMESTAMP
+                      Admin TINYINT(1) NOT NULL DEFAULT 0
 );
 
 CREATE TABLE products (
